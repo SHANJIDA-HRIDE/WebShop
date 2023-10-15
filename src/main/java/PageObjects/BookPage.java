@@ -10,7 +10,7 @@ public class BookPage extends BaseForm {
         super(By.linkText("Wishlist"), "User HomePage page is not open");
     }
     private final IButton clickOnAddToButton = getElementFactory().getButton(By.xpath("//body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/div[2]/div[3]/div[2]/input[1]"),"ClickOnAddToButton");
-    private final ILink clickOnAddToButtonLink = getElementFactory().getLink(By.xpath("//body/div[4]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]"),"ClickOnAddToButtonLink");
+    private final ILink clickOnAddToButtonLink = getElementFactory().getLink(By.linkText("Shopping cart"),"ClickOnAddToButtonLink");
     public void ClickOnAddToButton(){
         clickOnAddToButton.click();
     }

@@ -1,5 +1,10 @@
 {
-  "username": "hride@gmail.com",
-  "password": "12345678"
+  "email": "hride1997@gmail.com",
+  "password": "12345678",
+  "SelectCountry": "Canada",
+  "NewAddressCity": "Dhaka",
+  "NewAddress1": "Mirpur14",
+  "NewAddressZipPostalCode": "1200",
+  "NewAddressPhoneNumber": "01777284627"
 
 }
