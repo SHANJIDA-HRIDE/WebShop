@@ -1,9 +1,5 @@
 package tests;
-import PageObjects.Dashboard_Page;
-import PageObjects.WebLogin;
-import PageObjects.UserDashboardPage;
-import PageObjects.BookPage;
-import PageObjects.ShoppingCartPage;
+import PageObjects.*;
 import aquality.selenium.core.utilities.ISettingsFile;
 import aquality.selenium.core.utilities.JsonSettingsFile;
 import org.testng.annotations.Test;

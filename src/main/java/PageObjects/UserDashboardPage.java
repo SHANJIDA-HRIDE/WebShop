@@ -10,8 +10,11 @@ public class UserDashboardPage extends BaseForm {
         super(By.linkText("Wishlist"), "User HomePage page is not open");
     }
     private final ILink clickBookLink = getElementFactory().getLink(By.linkText("Books"),"clickBookLink");
-
+    private final ILink clickLogoutLink = getElementFactory().getLink(By.linkText("Log out"),"ClickLogoutLink");
     public void ClickBookLink(){
         clickBookLink.click();
+    }
+    public void setClickLogoutLink(){
+        clickLogoutLink.click();
     }
 }

@@ -1,6 +1,6 @@
 package tests;
 
-import PageObjects.Dashboard_Page;
+import PageObjects. *;
 import org.testng.annotations.Test;
 
 public class TestOfHomePage extends BaseTest {

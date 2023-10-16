@@ -1,14 +1,10 @@
 package PageObjects;
 
-import aquality.selenium.elements.interfaces.IButton;
-import aquality.selenium.elements.interfaces.ICheckBox;
-import aquality.selenium.elements.interfaces.IComboBox;
-import aquality.selenium.elements.interfaces.ITextBox;
+import aquality.selenium.elements.interfaces.*;
 import frameworks.BaseForm;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ISelect;
-
 public class ShoppingCartPage extends BaseForm {
+
     public ShoppingCartPage(){
         super(By.linkText("Wishlist"), "ShoppingCartPage is not open");
     }
@@ -26,6 +22,8 @@ public class ShoppingCartPage extends BaseForm {
     private final IButton clickPaymentMethodSave = getElementFactory().getButton(By.xpath("//body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ol[1]/li[4]/div[2]/div[1]/input[1]"),"ClickPaymentMethodSave");
     private final IButton clickPaymentInformationSave = getElementFactory().getButton(By.xpath("//body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ol[1]/li[5]/div[2]/div[1]/input[1]"),"ClickPaymentInformationSave");
     private final IButton clickConfirmOrderSave = getElementFactory().getButton(By.xpath("//body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ol[1]/li[6]/div[2]/div[2]/input[1]"),"ClickConfirmOrderSave");
+    private final ILink seeOrderDetails = getElementFactory().getLink(By.linkText("Click here for order details."),"SeeOrderDetails");
+    private final ILink downloadOrderPDF = getElementFactory().getLink(By.linkText("PDF Invoice"),"DownloadOrderPDF");
     public void setSelectCountry(String value){
         selectCountry.selectByContainingText(value);
     }
@@ -68,6 +66,11 @@ public class ShoppingCartPage extends BaseForm {
     public void setClickConfirmOrderSave(){
         clickConfirmOrderSave.click();
     }
-
+    public void setSeeOrderDetails(){
+        seeOrderDetails.click();
+    }
+    public void setDownloadOrderPDF(){
+        downloadOrderPDF.click();
+    }
 
 }
