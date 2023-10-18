@@ -41,5 +41,19 @@ https://www.oracle.com/java/technologies/downloads/
   - Build this project as a maven project.
   - Run src/test/java/tests/TestOfLogin.java this file.
   - You can see logs in the terminal.
-https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/8c097433-af1f-4c58-99df-981b75af01de
+
+
+https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/53023e23-cf62-421f-889c-b9b25f458632
+
+https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/84548a47-ce88-49e3-a0b5-feadd7951437
+
+https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/8bd98841-33a2-423d-b925-2261e25b6367
+
+
+
+
+
+
+
+
 
