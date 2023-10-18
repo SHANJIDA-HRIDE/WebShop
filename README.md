@@ -64,6 +64,10 @@ https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/6214
 
 
 
+https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/4d967d39-3f35-4881-a1a2-cb08cb596f4a
+
+
+
 
 
 
