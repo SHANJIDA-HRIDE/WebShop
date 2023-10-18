@@ -44,21 +44,14 @@ https://www.oracle.com/java/technologies/downloads/
  ## Scenario:
  - Registration of new users in the system
 - Login to Web Shop demo site: https://demowebshop.tricentis.com/
-- Now go to PIM dashboard and search by 1st user name. Assert that the user is found.
-- Now click on the user from the search table and update id by random userid
-- Now again search the user by new user id from the PIM dashboard menu and assert that the user is found
-- Now logout from admin and login with the 2nd user from your JSON list
-- Now click on My Info menu
-- Select Gender and Blood Type and save it
-- Click on contact details and input address and email
+- Now go to the books page and add to the cart a book
+- Now click on the add to cart page & select the country and terms & conditions.
+- Now add the necessary data to purchase the book & click continue.
 - Logout the user
 
+## Automation Output Video:
 
-https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/53023e23-cf62-421f-889c-b9b25f458632
 
-https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/84548a47-ce88-49e3-a0b5-feadd7951437
-
-https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/8bd98841-33a2-423d-b925-2261e25b6367
 
 
 
