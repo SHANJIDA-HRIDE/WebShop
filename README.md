@@ -41,6 +41,17 @@ https://www.oracle.com/java/technologies/downloads/
   - Build this project as a maven project.
   - Run src/test/java/tests/TestOfLogin.java this file.
   - You can see logs in the terminal.
+ ## Scenario:
+ - Registration of new users in the system
+- Login to Web Shop demo site: https://demowebshop.tricentis.com/
+- Now go to PIM dashboard and search by 1st user name. Assert that the user is found.
+- Now click on the user from the search table and update id by random userid
+- Now again search the user by new user id from the PIM dashboard menu and assert that the user is found
+- Now logout from admin and login with the 2nd user from your JSON list
+- Now click on My Info menu
+- Select Gender and Blood Type and save it
+- Click on contact details and input address and email
+- Logout the user
 
 
 https://github.com/SHANJIDA-HRIDE/WebShop_Automation_Selenium_TestNG/assets/62147630/53023e23-cf62-421f-889c-b9b25f458632
