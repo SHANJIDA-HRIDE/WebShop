@@ -18,7 +18,7 @@ public class TestOfRegistration extends BaseTest{
         registrationPage.setGender();
         registrationPage.setFirstName("Shanjida");
         registrationPage.setLastName("Hride");
-        registrationPage.setEmail("hride1997@gmail.com");
+        registrationPage.setEmail("hride1@gmail.com");
         registrationPage.setPassword("12345678");
         registrationPage.setConfirmPassword("12345678");
         registrationPage.clickOnRegistrationButton();
